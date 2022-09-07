@@ -6,3 +6,4 @@ function openNav() {
 function closeNav() {
   document.getElementById("sidemenu").style.width = "0";
 }
+// for testing purpurse
