@@ -14,7 +14,17 @@
     background-repeat: no-repeat;
     overflow: hidden;
 }
-
+.container-fluid{
+    background-color: #3a3e64;
+}
+.header-container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #313454;
+    z-index: 999;
+}
 .header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     max-width: 1170px;
@@ -22,9 +32,7 @@
     margin: 0 auto;
     width: 100%;
     z-index: 999;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+    
 
 }
 
@@ -60,6 +68,7 @@
 .container {
     margin: auto;
     max-width: 1170px;
+    overflow: hidden;
 }
 
 .banner-items {
@@ -261,12 +270,14 @@ span.icon {
     /* position: relative; */
     padding: 0;
     overflow: hidden;
+    max-height: 300px;
 
 }
 
 .sliders img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    max-width: 100%;
 }
 
 ul.slides {
@@ -293,7 +304,7 @@ blockquote {
 
 blockquote p {
     color: #fff;
-    padding: 60px;
+    padding-top: 60px;
     text-align: center;
 }
 
